@@ -43,7 +43,7 @@
         </div>
     </header>
     <main class="container">
-        <div class="card-container">
+        <div class="card-container" id="github">
             <div class="card-text">
                 <h2><img id="img1" src="https://img.icons8.com/color/452/symfony.png" height="30" width="30">Symfony</h2>
                 <h2>
@@ -75,7 +75,7 @@
                 Developer Symfony 3+| PHP | JS | Twig | HTML
             </div>
             <div class="card">
-                <div class="card-wrapper">
+                <div class="card-wrapper" id="linkedin">
                     <h2>Linkedin</h2>
                     <p>Veja meu perfil</p>
                 </div>
@@ -83,10 +83,18 @@
         </div>
         <div class="card-container">
             <div class="card-text">
-               <a href="https://www.dio.me/certificate/A3B55831/share"> Introdução a criação de websites com HTML5 e CSS3</a>
+               <p><a href="https://www.dio.me/certificate/A3B55831/share"> Introdução a criação de websites com HTML5 e CSS3</a></p>
+              <p> <a href="https://www.dio.me/certificate/B05AE2CC/share"> Desenvolvendo um menu hamburguer e morphing menu com CSS Transitions</a> </p>
+              <p><a href="https://www.dio.me/certificate/47EB7B87/share"> Introdução ao Git e ao GitHub</a></p>
+              <p> <a href="https://www.dio.me/certificate/0BFF4274/share"> Introdução à Programação e Pensamento Computacional</a></p>
+              <p> <a href="https://www.dio.me/certificate/D681C3C9/share"> Introdução ao Vue.js</a></p>
+
+
+
+
             </div>
             <div class="card">
-                <div class="card-wrapper">
+                <div class="card-wrapper" id="certificados">
                     <h2>Meus certificados</h2>
                     <p>Certificados dos cursos.</p>
                 </div>
@@ -98,3 +106,15 @@
     </footer>
 </body>
 </html>
+
+<script type="text/javascript">
+    document.getElementById("github").onclick = function(){
+        location.href = "https://github.com/isaacoliveira1";
+    }
+    document.getElementById("linkedin").onclick = function(){
+        location.href = "https://www.linkedin.com/in/isaacoliveira1/";
+    }
+
+    
+    
+</script>
